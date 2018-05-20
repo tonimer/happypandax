@@ -27,3 +27,5 @@ treelib==1.5.1
 regex==2018.02.21
 pyopenssl==17.5.0
 psycopg2==2.7.4
+# https://www.lfd.uci.edu/%7Egohlke/pythonlibs is not a pypi index
+./bitarray-0.8.1-cp36-cp36m-win_amd64.whl

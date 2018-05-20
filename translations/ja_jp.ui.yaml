@@ -6,13 +6,19 @@
 #	- de == description text
 #	- t == normal text
 #	- b == button text
+
+# todo:
+#   include publishers tag
+#   include いろは順（五十音）
+#   artist = published? 作者: 作家
+#   expand categories/tags into ジャンル、シチュ、場所、女子・女属性、男子・男属性、原作、その他
 ################################################################
 
 # very useful for updating
 _version_: 6
 
 # Common
-t-loading: Loading
+t-loading: ロード中
 b-edit: Edit
 b-close: Close
 b-new: New
@@ -26,7 +32,7 @@ mi-dashboard: Dashboard
 mi-favorites: Favorites
 mi-library: Library
 mi-directory: Directory
-mi-inbox: Inbox
+mi-inbox: 受信トレイ
 mi-downloads: Downloads
 mi-preferences: Preferences
 mi-about: About
@@ -127,49 +133,56 @@ t-message: Message
 t-response: Response
 
 # Directory Page
-mi-dir-tags: Tags
-mi-dir-artists: Artists
-mi-dir-circles: Circles
-mi-dir-categories: Categories
-mi-dir-parodies: Parodies
-mi-dir-languages: Languages
+mi-dir-tags: タグ
+mi-dir-artists: 作者・作家別
+mi-dir-circles: サークル別
+## todo 
+mi-dir-publishers: 雑誌・レーベル
+## todo いろは順（五十音）
+mi-dir-categories: 属性
+
+mi-dir-parodies: 原作・元ネタ
+mi-dir-languages: 言語
 mi-dir-status: Status
 t-search-tags-placeholder: Search tags
-t-search-artists-placeholder: Search artists
-t-search-parodies-placeholder: Search parodies
-t-search-circles-placeholder: Search circles
-t-total-tags: Total Tags
-t-total-artists: Total Artists
-t-total-parodies: Total Parodies
-t-total-circles: Total Circles
+t-search-artists-placeholder: 作家で探す
+t-search-parodies-placeholder: 原作で探す
+t-search-circles-placeholder: サークルで探す
+t-total-tags: タグ・キーワード一覧
+t-total-artists: 作家一覧
+t-total-parodies: 原作・元ネタ一覧
+t-total-circles: サークル・レーベル
 
 # Gallery Page
-t-artist: Artist
-t-circle: Circle
-t-parody: Parody
+## https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1156460521
+## todo artist = published? 作者: 作家
+t-artist: 作者・作家
+
+t-circle: サークル別
+t-parody: 原作別
 t-status: Status
-t-published: Published
+t-published: 発売日
 t-times-read: Times read
-t-rating: Rating
-t-tags: Tags
+t-rating:　平均評価
+t-tags: タグ・キーワード
 t-url: URL
 t-inboxed-gallery: This gallery is in your inbox
 t-trashed-gallery: This gallery is set to be deleted
 b-restore: Restore
 t-delete-files: Delete files
 t-send-recycle-bin: Send files to Recycle Bin
-t-date-added: Date added
+t-date-added: 投稿日
 t-last-read: Last read
-t-last-updated: Last updated
-t-series: Series
-t-pages: Pages
+t-last-updated: 最終更新日
+t-series: 作品別
+t-pages: 総ページ数
 h-included-gallery-filters:
     one: Included in %{count} gallery filter
     many: Included in %{count} gallery filters
 h-appears-in-collection:
     one: Appears in %{count} collection
     many: Appears in %{count} collections
-h-more-like-this: More like this
+h-more-like-this: 関連記事
 
 # Collection Page
 t-inboxed-collection: This collection is in your inbox
@@ -180,28 +193,38 @@ t-galleries: Galleries
 # Item
 b-read: Read
 b-save-later: Save for later
-b-send-library: Send to Library
+b-send-library: 本棚に追加
 b-add-to-filter: Add to filter
-b-add-to-collection: Add to collection
+b-add-to-collection: リストに追加
 b-add-to-series: Add to series
 b-send-trash: Send to Trash
 
 # Artist View
-t-galleries: Galleries
-t-show-galleries: Show galleries
-t-show-fav-galleries: Show favorite galleries
+t-galleries: ギャラリー
+t-show-galleries: ギャラリー一覧を開く
+t-show-fav-galleries: お気に入り一覧を開く
 t-show-inbox-galleries: Show galleries in inbox
-t-most-common-tags: Most common tags
+t-most-common-tags: 人気の検索ワード
 
 # Sidebar Options
-t-open-external-viewer: Open in external viewer
+t-open-external-viewer: ビューワで見る
 t-infinite-scroll: Infinite Scroll
 t-group-galleries: Gallery Series
-t-items-per-page: Items per page
+t-items-per-page: 表示件数
 t-blur: Blur
 
 # Misc
-t-showing-count: Showing %{from}-%{to} of %{all}
+t-showing-count: Showing %{from}-%{to} 全%{all}件
 t-search-main-placeholder: Search title, artist, namespace & tags
-t-filterdropdown-placeholder: Filter
-t-sortdropdown-placeholder: Sort by
+t-filterdropdown-placeholder: 絞り込み条件を追加
+t-sortdropdown-placeholder: 並べ替え
+
+################################################################
+
+#  Prefixes:
+#	- mi == menu item text	
+#	- h == header text
+#	- de == description text
+#	- t == normal text
+#	- b == button text
+################################################################

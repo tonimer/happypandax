@@ -1,0 +1,36 @@
+# This id is required
+locale: Japanese (Japan)
+
+# very useful for updating
+_version_: 2
+
+# Database
+db-item-gallery: Gallery
+db-item-collection: Collection
+
+db-status-ongoing: Ongoing
+db-status-completed: 完結
+db_status-unknown: Unknown
+
+# Sort
+sort-idx-1: Random
+sort-idx-2: 作品名
+sort-idx-3: 著者
+sort-idx-4: Date Added
+sort-idx-5: 発売日
+sort-idx-6: Last Read
+sort-idx-7: Last Updated
+sort-idx-8: 評価
+sort-idx-9: 読者数
+sort-idx-10: ページ数
+sort-idx-20: Name
+sort-idx-30: Namespace
+sort-idx-31: ジャンル
+sort-idx-40: Name
+sort-idx-45: Name
+sort-idx-50: Random
+sort-idx-51: Name
+sort-idx-52: Date Added
+sort-idx-53: 発売日
+sort-idx-54: Gallery Count
+
